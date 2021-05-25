@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>文字粒子效果</title>
-	</head>
-	<body></body>
-</html>
-<!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>北极光之夜。</title>
+		<title>文字粒子效果</title>
 		<style>
 			* {
 				margin: 0;
@@ -37,7 +27,7 @@
 			var ctx = canvas.getContext("2d");
 			ctx.font = "30px fangsong";
 			ctx.fillStyle = "rgb(0, 0, 0)";
-			ctx.fillText("关瑞华关瑞华", 0, 30, 180);
+			ctx.fillText("guanruihua", 0, 30, 180);
 			var pix = ctx.getImageData(0, 0, 180, 35);
 			window.addEventListener("resize", canvasResize);
 			function canvasResize() {
